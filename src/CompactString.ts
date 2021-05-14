@@ -55,7 +55,7 @@ export class CompactString {
 			}
 			default: {
 				this._data = from;
-				this._size = this._data.length;
+				this._size = this._write_index = this._data.length;
 				break;
 			}
 		}
