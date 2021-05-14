@@ -1,0 +1,20 @@
+{
+	"name": "compact-string",
+	"description": "Compact string encoding for Node.js",
+	"version": "0.1.0-1",
+	"main": "lib/index.js",
+	"author": "Prokop Schield",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"@types/node": ">=14"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prokopschield/compact-string.git"
+	},
+	"keywords": [],
+	"bugs": {
+		"url": "https://github.com/prokopschield/compact-string/issues"
+	},
+	"homepage": "https://github.com/prokopschield/compact-string#readme"
+}
