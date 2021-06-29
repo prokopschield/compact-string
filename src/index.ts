@@ -10,6 +10,6 @@ export { writeSync } from './writeSync';
 export { CompactString } from './CompactString';
 
 import * as codepage from './codepage';
-export { codepage }
+export { codepage };
 
 export * from './types';

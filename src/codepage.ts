@@ -4,16 +4,9 @@ import kamenicky from './codepage/kamenicky';
 import latin1 from './codepage/ISO-8859-1';
 import latin2 from './codepage/ISO-8859-2';
 
-export {
-	def,
-	def as main,
-	ibm,
-	kamenicky,
-	latin1,
-	latin2,
-};
+export { def, def as main, ibm, kamenicky, latin1, latin2 };
 
-const main = [ ...def ];
+const main = [...def];
 
 Object.assign(main, {
 	...ibm,

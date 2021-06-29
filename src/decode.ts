@@ -1,6 +1,6 @@
 import CompactString from './CompactString';
 
-export function decode (CS: CompactString): string {
+export function decode(CS: CompactString): string {
 	return CS.string;
 }
 
